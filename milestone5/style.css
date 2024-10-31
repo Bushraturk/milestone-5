@@ -1,0 +1,140 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f0f4f8;
+  background-color: #f5fffa;
+  background-color: #e0ffff;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+fieldset {
+  border: 2px solid #3498bd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+
+legend {
+  font-weight: bold;
+  text-align: left;
+  color: #2c3e50;
+  font-size: 1.5em; /* Increased font size */
+  padding: 5px 0;
+  /* font-weight: bold;
+    text-align: left;
+    color: #2c3e50; */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px; /* Added bottom margin for spacing */
+  color: #2c3e50;
+  font-size: 1.2em;
+  
+}
+
+input,
+textarea {
+  width: calc(100% -1px);
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #3498bd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1em;
+}
+textarea {
+  min-height: 100px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding: 10;
+  background-color: rgb(136, 221, 233);
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+  background-color: #66b1e6;
+}
+
+#resume-display {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #3498bd;
+  border-radius: 8px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+  color: #2c3e50;
+}
+
+#shareable-link-container{
+  display: none;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #3498bd;
+  border-radius: 8px;
+  background-color: #f0f4f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+}
+#shereable-link-container p{
+  color: #2c3e50;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+#shareable-link{
+  color: #3498bd;
+  font-weight: bold;
+}
+#shareable-link:hover{
+  color: #194766;
+  text-decoration: underline;
+}
+
+#download-pdf{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: rgb(43, 176, 194);
+  color: black;
+  border: 2%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+#download-pdf:hover{
+  background-color: #7cb8e4;
+
+}
